@@ -1,0 +1,6 @@
+{
+    "invalidUser": {
+        "curp": "CURP123456EXMPL",
+        "email": "invalid_user@invalid.com"
+    }
+}

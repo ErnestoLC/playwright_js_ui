@@ -1,0 +1,33 @@
+{
+  "name": "playwright_js_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestoLC/playwright_js_ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnestoLC/playwright_js_ui/issues"
+  },
+  "homepage": "https://github.com/ErnestoLC/playwright_js_ui#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "type": "module",
+  "imports": {
+    "#pages/*": "./pages/*",
+    "#test_data/*": "./test_data/*"
+  }
+}
